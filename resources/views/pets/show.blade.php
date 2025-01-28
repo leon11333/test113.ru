@@ -24,10 +24,19 @@
                     </div>
                     <div id="default-tab-content">
                         <div class="hidden py-4" role="tabpanel" id="information" aria-labelledby="information-tab">
-                        Здесь информация о собаке
+                            Здесь информация о собаке
                         </div>
                         <div class="hidden py-4" role="tabpanel" id="pedigree" aria-labelledby="pedigree-tab">
-                        
+                            <div class="flex justify-end">
+                                <select name="generation" id="generation" class="mb-4">
+                                    <option value="3">3 поколения</option>
+                                    <option value="4">4 поколения</option>
+                                    <option value="5">5 поколения</option>
+                                    <option value="6">6 поколения</option>
+                                    <option value="7">7 поколения</option>
+                                    <option value="8">8 поколения</option>
+                            </select>
+                            </div>
                             <div class="grid gap-4 grid-cols-3 mb-8">
                                 {{-- 1 уровень --}}
                                 <div class="flex gap-4 items-center p-4 border border-gray-900">
@@ -75,7 +84,7 @@
                                             <div class="flex gap-2 items-center">
                                                 <div class="text-md font-bold">Кличка</div>
                                                 <div>-</div>
-                                                <div class="text-md">Мать</div>
+                                                <div class="text-md">Отец</div>
                                             </div>
                                             
                                             <div class="flex gap-2 items-center">
@@ -103,7 +112,7 @@
                                             <div class="flex gap-2 items-center">
                                                 <div class="text-md font-bold">Кличка</div>
                                                 <div>-</div>
-                                                <div class="text-md">Мать</div>
+                                                <div class="text-md">Отец</div>
                                             </div>
                                             
                                             <div class="flex gap-2 items-center">
@@ -177,7 +186,7 @@
                                             <div class="flex gap-2 items-center">
                                                 <div class="text-md font-bold">Кличка</div>
                                                 <div>-</div>
-                                                <div class="text-md">Мать</div>
+                                                <div class="text-md">Отец</div>
                                             </div>
                                             
                                             <div class="flex gap-2 items-center">
@@ -205,7 +214,7 @@
                                             <div class="flex gap-2 items-center">
                                                 <div class="text-md font-bold">Кличка</div>
                                                 <div>-</div>
-                                                <div class="text-md">Мать</div>
+                                                <div class="text-md">Отец</div>
                                             </div>
                                             
                                             <div class="flex gap-2 items-center">
